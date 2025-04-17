@@ -1,0 +1,10 @@
+{% extends  "base.html"%}
+
+{% block title%}{{page_title}}{% endblock%}
+{% block content%}
+<h1>This is heading</h1>
+<p>Page Visited</p>
+Page with path count {{queryset_count_path}}
+Total count of visiting the path {{query_set_all}}
+<p>This the first paragraph of the website</p>
+{% endblock%}
